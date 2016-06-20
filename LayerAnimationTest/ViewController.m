@@ -8,6 +8,12 @@
 
 #import "ViewController.h"
 #import "AnimationView.h"
+#import "PostionLayer.h"
+#import "OpacityLayer.h"
+#import "ShapeLayer.h"
+#import "TraceLayer.h"
+#import "RockLayer.h"
+
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *leftBt;
 @property (weak, nonatomic) IBOutlet UIButton *rightBt;
@@ -21,6 +27,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.animationView replaceDRLayer:[RockLayer new]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

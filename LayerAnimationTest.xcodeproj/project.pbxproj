@@ -17,6 +17,11 @@
 		EBCF6B931D17C46400754B0F /* LayerAnimationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6B921D17C46400754B0F /* LayerAnimationTestUITests.m */; };
 		EBCF6BA31D17C4F200754B0F /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BA21D17C4F200754B0F /* AnimationView.m */; };
 		EBCF6BA61D17C88400754B0F /* DRLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BA51D17C88400754B0F /* DRLayer.m */; };
+		EBCF6BA91D17CD8900754B0F /* PostionLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BA81D17CD8900754B0F /* PostionLayer.m */; };
+		EBCF6BAC1D17D29A00754B0F /* OpacityLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BAB1D17D29A00754B0F /* OpacityLayer.m */; };
+		EBCF6BAF1D17D80200754B0F /* ShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BAE1D17D80200754B0F /* ShapeLayer.m */; };
+		EBCF6BB21D17D91000754B0F /* TraceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BB11D17D91000754B0F /* TraceLayer.m */; };
+		EBCF6BB51D17DE0000754B0F /* RockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BB41D17DE0000754B0F /* RockLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,16 @@
 		EBCF6BA21D17C4F200754B0F /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 		EBCF6BA41D17C88400754B0F /* DRLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRLayer.h; sourceTree = "<group>"; };
 		EBCF6BA51D17C88400754B0F /* DRLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRLayer.m; sourceTree = "<group>"; };
+		EBCF6BA71D17CD8900754B0F /* PostionLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostionLayer.h; sourceTree = "<group>"; };
+		EBCF6BA81D17CD8900754B0F /* PostionLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostionLayer.m; sourceTree = "<group>"; };
+		EBCF6BAA1D17D29900754B0F /* OpacityLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpacityLayer.h; sourceTree = "<group>"; };
+		EBCF6BAB1D17D29A00754B0F /* OpacityLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpacityLayer.m; sourceTree = "<group>"; };
+		EBCF6BAD1D17D80200754B0F /* ShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeLayer.h; sourceTree = "<group>"; };
+		EBCF6BAE1D17D80200754B0F /* ShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeLayer.m; sourceTree = "<group>"; };
+		EBCF6BB01D17D91000754B0F /* TraceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraceLayer.h; sourceTree = "<group>"; };
+		EBCF6BB11D17D91000754B0F /* TraceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceLayer.m; sourceTree = "<group>"; };
+		EBCF6BB31D17DE0000754B0F /* RockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RockLayer.h; sourceTree = "<group>"; };
+		EBCF6BB41D17DE0000754B0F /* RockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RockLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +169,16 @@
 			children = (
 				EBCF6BA41D17C88400754B0F /* DRLayer.h */,
 				EBCF6BA51D17C88400754B0F /* DRLayer.m */,
+				EBCF6BA71D17CD8900754B0F /* PostionLayer.h */,
+				EBCF6BA81D17CD8900754B0F /* PostionLayer.m */,
+				EBCF6BAA1D17D29900754B0F /* OpacityLayer.h */,
+				EBCF6BAB1D17D29A00754B0F /* OpacityLayer.m */,
+				EBCF6BAD1D17D80200754B0F /* ShapeLayer.h */,
+				EBCF6BAE1D17D80200754B0F /* ShapeLayer.m */,
+				EBCF6BB01D17D91000754B0F /* TraceLayer.h */,
+				EBCF6BB11D17D91000754B0F /* TraceLayer.m */,
+				EBCF6BB31D17DE0000754B0F /* RockLayer.h */,
+				EBCF6BB41D17DE0000754B0F /* RockLayer.m */,
 			);
 			path = animationLayer;
 			sourceTree = "<group>";
@@ -288,10 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBCF6BB21D17D91000754B0F /* TraceLayer.m in Sources */,
+				EBCF6BA91D17CD8900754B0F /* PostionLayer.m in Sources */,
 				EBCF6B751D17C46400754B0F /* ViewController.m in Sources */,
 				EBCF6BA61D17C88400754B0F /* DRLayer.m in Sources */,
 				EBCF6BA31D17C4F200754B0F /* AnimationView.m in Sources */,
+				EBCF6BAC1D17D29A00754B0F /* OpacityLayer.m in Sources */,
+				EBCF6BAF1D17D80200754B0F /* ShapeLayer.m in Sources */,
 				EBCF6B721D17C46400754B0F /* AppDelegate.m in Sources */,
+				EBCF6BB51D17DE0000754B0F /* RockLayer.m in Sources */,
 				EBCF6B6F1D17C46400754B0F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
