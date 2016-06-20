@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
-
+#import "AnimationView.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *leftBt;
+@property (weak, nonatomic) IBOutlet UIButton *rightBt;
+@property (weak, nonatomic) IBOutlet AnimationView *animationView;
+- (IBAction)leftClicked:(id)sender;
+- (IBAction)rightClicked:(id)sender;
 
 @end
 
@@ -24,4 +29,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)leftClicked:(id)sender {
+    
+}
+
+- (IBAction)rightClicked:(id)sender {
+    
+}
 @end

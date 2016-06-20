@@ -15,6 +15,8 @@
 		EBCF6B7D1D17C46400754B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBCF6B7B1D17C46400754B0F /* LaunchScreen.storyboard */; };
 		EBCF6B881D17C46400754B0F /* LayerAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6B871D17C46400754B0F /* LayerAnimationTestTests.m */; };
 		EBCF6B931D17C46400754B0F /* LayerAnimationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6B921D17C46400754B0F /* LayerAnimationTestUITests.m */; };
+		EBCF6BA31D17C4F200754B0F /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BA21D17C4F200754B0F /* AnimationView.m */; };
+		EBCF6BA61D17C88400754B0F /* DRLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BA51D17C88400754B0F /* DRLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		EBCF6B8E1D17C46400754B0F /* LayerAnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayerAnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCF6B921D17C46400754B0F /* LayerAnimationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationTestUITests.m; sourceTree = "<group>"; };
 		EBCF6B941D17C46400754B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCF6BA11D17C4F200754B0F /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		EBCF6BA21D17C4F200754B0F /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		EBCF6BA41D17C88400754B0F /* DRLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRLayer.h; sourceTree = "<group>"; };
+		EBCF6BA51D17C88400754B0F /* DRLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				EBCF6B711D17C46400754B0F /* AppDelegate.m */,
 				EBCF6B731D17C46400754B0F /* ViewController.h */,
 				EBCF6B741D17C46400754B0F /* ViewController.m */,
+				EBCF6BA11D17C4F200754B0F /* AnimationView.h */,
+				EBCF6BA21D17C4F200754B0F /* AnimationView.m */,
+				EBCF6BA01D17C48200754B0F /* animationLayer */,
 				EBCF6B761D17C46400754B0F /* Main.storyboard */,
 				EBCF6B791D17C46400754B0F /* Assets.xcassets */,
 				EBCF6B7B1D17C46400754B0F /* LaunchScreen.storyboard */,
@@ -138,6 +147,15 @@
 				EBCF6B941D17C46400754B0F /* Info.plist */,
 			);
 			path = LayerAnimationTestUITests;
+			sourceTree = "<group>";
+		};
+		EBCF6BA01D17C48200754B0F /* animationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EBCF6BA41D17C88400754B0F /* DRLayer.h */,
+				EBCF6BA51D17C88400754B0F /* DRLayer.m */,
+			);
+			path = animationLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBCF6B751D17C46400754B0F /* ViewController.m in Sources */,
+				EBCF6BA61D17C88400754B0F /* DRLayer.m in Sources */,
+				EBCF6BA31D17C4F200754B0F /* AnimationView.m in Sources */,
 				EBCF6B721D17C46400754B0F /* AppDelegate.m in Sources */,
 				EBCF6B6F1D17C46400754B0F /* main.m in Sources */,
 			);
