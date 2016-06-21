@@ -22,6 +22,7 @@
 		EBCF6BAF1D17D80200754B0F /* ShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BAE1D17D80200754B0F /* ShapeLayer.m */; };
 		EBCF6BB21D17D91000754B0F /* TraceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BB11D17D91000754B0F /* TraceLayer.m */; };
 		EBCF6BB51D17DE0000754B0F /* RockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BB41D17DE0000754B0F /* RockLayer.m */; };
+		EBCF6BB81D17EC6A00754B0F /* ListLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF6BB71D17EC6A00754B0F /* ListLayerVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		EBCF6BB11D17D91000754B0F /* TraceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceLayer.m; sourceTree = "<group>"; };
 		EBCF6BB31D17DE0000754B0F /* RockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RockLayer.h; sourceTree = "<group>"; };
 		EBCF6BB41D17DE0000754B0F /* RockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RockLayer.m; sourceTree = "<group>"; };
+		EBCF6BB61D17EC6A00754B0F /* ListLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListLayerVC.h; sourceTree = "<group>"; };
+		EBCF6BB71D17EC6A00754B0F /* ListLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListLayerVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				EBCF6B711D17C46400754B0F /* AppDelegate.m */,
 				EBCF6B731D17C46400754B0F /* ViewController.h */,
 				EBCF6B741D17C46400754B0F /* ViewController.m */,
+				EBCF6BB61D17EC6A00754B0F /* ListLayerVC.h */,
+				EBCF6BB71D17EC6A00754B0F /* ListLayerVC.m */,
 				EBCF6BA11D17C4F200754B0F /* AnimationView.h */,
 				EBCF6BA21D17C4F200754B0F /* AnimationView.m */,
 				EBCF6BA01D17C48200754B0F /* animationLayer */,
@@ -318,6 +323,7 @@
 				EBCF6B751D17C46400754B0F /* ViewController.m in Sources */,
 				EBCF6BA61D17C88400754B0F /* DRLayer.m in Sources */,
 				EBCF6BA31D17C4F200754B0F /* AnimationView.m in Sources */,
+				EBCF6BB81D17EC6A00754B0F /* ListLayerVC.m in Sources */,
 				EBCF6BAC1D17D29A00754B0F /* OpacityLayer.m in Sources */,
 				EBCF6BAF1D17D80200754B0F /* ShapeLayer.m in Sources */,
 				EBCF6B721D17C46400754B0F /* AppDelegate.m in Sources */,

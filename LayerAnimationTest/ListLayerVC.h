@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ListLayerVC.h
 //  LayerAnimationTest
 //
 //  Created by liudavid on 16/6/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ListLayerVC : UITableViewController
 
-@property (strong,nonatomic) NSDictionary *selectedDic;
 @end
-

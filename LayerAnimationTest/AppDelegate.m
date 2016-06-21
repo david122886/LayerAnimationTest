@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.listLayers = @[@{@"name":@"位置变化",@"className":@"PostionLayer"},@{@"name":@"透明度变化",@"className":@"OpacityLayer"},@{@"name":@"形状变化",@"className":@"ShapeLayer"},@{@"name":@"运动轨迹变化",@"className":@"TraceLayer"},@{@"name":@"晃动",@"className":@"RockLayer"}];
+
     return YES;
 }
 
