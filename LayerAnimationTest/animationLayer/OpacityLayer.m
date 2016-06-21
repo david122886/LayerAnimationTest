@@ -26,7 +26,7 @@
 //    self.frame = (CGRect){100,100,100,100};
 //    self.backgroundColor = [UIColor greenColor].CGColor;
     
-    self.path = self.startPath.CGPath;
+    self.path = self.startPath.CGPath;///决定形状,不然不会显示
     self.fillColor = [UIColor redColor].CGColor;
     
     

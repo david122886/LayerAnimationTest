@@ -39,6 +39,7 @@
     }
     
     [self stepBtStatus];
+    self.title = self.selectedDic[@"name"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -55,6 +56,7 @@
 - (IBAction)leftClicked:(id)sender {
     self.selectedDic = [self preLayerDic];
     [self.animationView replaceDRLayer:[[NSClassFromString(self.selectedDic[@"className"]) alloc] init]];
+    self.title = self.selectedDic[@"name"];
 
     [self stepBtStatus];
     
@@ -63,6 +65,7 @@
 - (IBAction)rightClicked:(id)sender {
     self.selectedDic = [self nextLayerDic];
     [self.animationView replaceDRLayer:[[NSClassFromString(self.selectedDic[@"className"]) alloc] init]];
+    self.title = self.selectedDic[@"name"];
 
     [self stepBtStatus];
     

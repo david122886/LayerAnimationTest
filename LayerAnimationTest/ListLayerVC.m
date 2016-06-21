@@ -44,11 +44,6 @@
     return self.listLayers.count;
 }
 
-
--(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    return 50;
-}
-
 #pragma mark --
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
